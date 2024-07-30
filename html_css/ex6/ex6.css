@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}.nav{
+    display: flex;
+    gap: 100px;
+    border: 1px solid;
+    height: 95px;
+    align-items: center;
+    justify-content: space-around;
+}.list ul{
+    display: flex;
+    gap: 25px;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+}.list ul li{
+    list-style: none;
+    cursor: pointer;
+}.logo img{
+    height: 55px;
+    width: 175px;
+}.main{
+    background-color: rgb(36, 35, 35);
+    height: 100vh;
+}
